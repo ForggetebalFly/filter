@@ -47,7 +47,7 @@ def get_user_list():
     return items
 
 def main():
-    print("=== Фильтр списка ===")
+    print("=== Фильтр списка v2.0 ===")
     items = get_user_list()
     current_filter = "none"
     while True:
